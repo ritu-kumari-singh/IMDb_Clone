@@ -12,7 +12,7 @@ window.onload = function () {
     populate_page(id);
 }
 async function populate_page(id) {
-    const response = await fetch('http://www.omdbapi.com/?apikey=3116467d&i='+id);
+    const response = await fetch('https://www.omdbapi.com/?apikey=3116467d&i='+id);
     const data = await response.json();
     document.getElementById('container').innerHTML = '<div class="flex">'
                                                         +'<img src="'+data.Poster+'" alt="Could not load movie poster" width="400" height="500">'
