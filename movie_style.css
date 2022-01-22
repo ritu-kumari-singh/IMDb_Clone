@@ -1,0 +1,26 @@
+body { 
+    background-color: black;
+    color : white;
+    padding : 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.flex {
+    display : flex;
+}
+.column {
+    flex-direction: column;
+}
+.bold {
+    font-weight: 600;
+    color : white;
+    margin-right : 10px;
+}
+span {
+    color:white;
+    font-size: 40px
+}
+p {
+    color:#afa2a2;
+    font-size: 20px;
+    margin : 2px;
+}

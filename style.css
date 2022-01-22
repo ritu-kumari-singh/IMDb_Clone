@@ -1,0 +1,118 @@
+@media screen and (max-width: 750px) {
+    #IMDb {
+        display : none;
+    }
+    #featured_today {
+        flex-direction: column;
+    }
+}
+body { 
+    background-color: black;
+}
+.white {
+    color : white;
+}
+.yellow {
+    color : yellow;
+}
+.flex {
+    display : flex;
+}
+.row {
+    flex-direction: row;
+}
+.column {
+    flex-direction: column;
+}
+#navigation_container{
+    height : 30px;
+    padding : 3px 3px 3px 10px;
+    justify-content: space-evenly;
+}
+i {
+    padding: 2px;
+    font-size: 30px;
+}
+#search_bar_container {
+    width : 50%;
+    margin : 0px 10px;
+    height : 100%;
+    position: relative;
+}
+#search_bar_container form, #search_movie {
+    width : 100%;
+    height : 100%;
+    border-radius: 5px;
+}
+.custom_button {
+    border: none;
+    background-color: black;
+    padding: 5px 15px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    width: 150px;
+    height : 100%;
+    position: relative;
+    cursor: pointer;
+    color : white;
+    border-radius: 5px;
+}
+.custom_button i {
+    position : absolute;
+    left : 3px;
+    top : 1px;
+    font-size : 28px;
+}
+#IMDb {
+    background-color: yellow;
+    color : black;
+    font-weight: 600;
+    width : 80px;
+    height : 35px;
+}
+#menu_button {
+    width : 122px;
+}
+#movie_list {
+    position : absolute;
+    top : 36px;
+    left : 3px;
+    height : auto;
+    max-height : 250px;
+    width : 100%;
+    overflow-y: auto;
+    background-color: white;
+}
+#movie_list ul {
+    list-style : none;
+    padding : 0px;
+    margin : 0px;
+}
+#search_results li {
+    justify-content: space-between;
+    align-items: center;
+    padding : 5px;
+}
+#search_results li div{
+    width : 90%;
+    cursor: pointer;
+}
+#search_results li div a{
+    align-items: center;
+    width : 100%;
+    text-decoration: none;
+    color : black;
+}
+#search_results li span {
+    padding-left: 10px;
+    font-size: 20px;
+    font-weight: 600;
+}
+#search_results li i {
+    font-size: 16px;
+    cursor: pointer;
+}
+figcaption {
+    color : rgb(170, 167, 167);
+}

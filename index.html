@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>IMDb:Ratings, Reviews, and Where to Watch the Best Movies and TV Shows</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+    <nav id="navigation_container" class="flex row">
+        <button id="IMDb" class="custom_button">IMDb</button>
+        <button id="menu_button" class="custom_button"><i id="hamburger_icon" class="fas fa-bars white"></i>Menu</button>
+        <div id="search_bar_container" class="flex row">
+            <form>
+                <input id="search_movie" type="text" placeholder="Search IMDb">
+            </form>
+            <div id="movie_list">
+                <ul id="search_results">                   
+                </ul>
+            </div>
+        </div>
+        <a href="my_fav_movie.html" id="fav_movie_page" target="_blank"><button class="custom_button"><i class="fas fa-bookmark white"></i>Favourites</button></a>
+    </nav>
+    <div style="padding:10px;">
+        <h1 class="yellow">What to Watch</h1>
+        <figure>
+            <img style="padding:20px 40px;" src="https://m.media-amazon.com/images/M/MV5BMTE0YWFmOTMtYTU2ZS00ZTIxLWE3OTEtYTNiYzBkZjViZThiXkEyXkFqcGdeQXVyODMzMzQ4OTI@._V1_SX300.jpg" alt="Image Could Not Load" width="70%" height="450">
+            <figcaption style="font-size: 24px;">Captain Marvel</figcaption>
+        </figure>
+        
+    </div>
+    <div style="padding:10px;">
+        <h1 class="yellow">Featured Today</h1>
+        <div id="featured_today" class="flex" style="justify-content: space-evenly;">
+            <figure>
+                <img src="https://m.media-amazon.com/images/M/MV5BMGVmMWNiMDktYjQ0Mi00MWIxLTk0N2UtN2ZlYTdkN2IzNDNlXkEyXkFqcGdeQXVyODE5NzE3OTE@._V1_SX300.jpg" alt="" width="100" height="150">
+                <figcaption>Harry Potter and the Deathly Hallows: Part 2</figcaption>
+            </figure>
+            <figure>
+                <img src="https://m.media-amazon.com/images/M/MV5BNjQ3NWNlNmQtMTE5ZS00MDdmLTlkZjUtZTBlM2UxMGFiMTU3XkEyXkFqcGdeQXVyNjUwNzk3NDc@._V1_SX300.jpg" alt="" width="100" height="150">
+                <figcaption>Harry Potter and the Sorcerer's Stone</figcaption>
+            </figure>
+            <figure>
+                <img src="https://m.media-amazon.com/images/M/MV5BMTcxODgwMDkxNV5BMl5BanBnXkFtZTYwMDk2MDg3._V1_SX300.jpg" alt="" width="100" height="150">
+                <figcaption>Harry Potter and the Chamber of Secrets</figcaption>
+            </figure>
+            <figure>
+                <img src="https://m.media-amazon.com/images/M/MV5BNzU3NDg4NTAyNV5BMl5BanBnXkFtZTcwOTg2ODg1Mg@@._V1_SX300.jpg" alt="" width="100" height="150">
+                <figcaption>Harry Potter and the Half-Blood Prince</figcaption>
+            </figure>
+        </div>
+    </div>
+    <script type="text/javascript" src="script.js"></script>
+</body>
