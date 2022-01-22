@@ -1,6 +1,9 @@
 # IMDb_Clone
 A simple imdb clone website with search and mark to favourites feature.
 
+# Description
+This website makes use of OMDB Api to fetch search results based on movie name. We can also search for more details about a movie using the imdbId of any movie.
+
 # Features
   ## Search
   Search for any movie in the search bar. The search results keep getting updated as the user types. 
