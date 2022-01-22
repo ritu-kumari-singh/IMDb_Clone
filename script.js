@@ -5,7 +5,7 @@ var my_fav_movies = [];
 document.getElementById("search_movie").onkeyup = async function() {
         let searchword = document.getElementById("search_movie").value;
         // fetch search results for the movie searched by user
-        const response = await fetch('http://www.omdbapi.com/?apikey=3116467d&s='+searchword)
+        const response = await fetch('https://www.omdbapi.com/?apikey=3116467d&s='+searchword)
         const data = await response.json();
         const results = data.Search;
 
