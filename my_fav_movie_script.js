@@ -12,7 +12,7 @@ async function fetch_list(my_fav_movies) {
     for(let i = 0; i < my_fav_movies.length; i++) {
         //use omdb api to fetch information about the movie using imdb id saved in local storage
         let imdbId = my_fav_movies[i];
-        const response = await fetch('http://www.omdbapi.com/?apikey=3116467d&i='+imdbId);
+        const response = await fetch('https://www.omdbapi.com/?apikey=3116467d&i='+imdbId);
         const data = await response.json();
         document.getElementById('movie_list').innerHTML += '<li class="flex">'
                                                                 +'<img src="'+data.Poster+'" alt="No Poster" width="70" height="100">'
